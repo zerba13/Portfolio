@@ -175,8 +175,10 @@ nav {
 
 }
 
-
-
+.cv{
+  text-align: center;
+  margin: auto;
+}
 
 #techno{
   display: flex;
