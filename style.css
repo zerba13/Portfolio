@@ -1,4 +1,215 @@
-.nav-item{
+.introduction {
+    height: 800px;
+    background-image: url(Image/InWork.jpg);
+    background-size: cover;
+    background-position: 50% 75%;
+    position: relative;
+    display: flex;
+
+}
+
+nav {
+    position: fixed;
+    top: 2%;
+    width: 100%;
+    background: none;
+    height: 75px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    overflow: hidden;
+    color: #ccc;
+    z-index: 2;
+
+}
+
+.nav-link {
     list-style: none;
-    align-items: flex-end;
+    margin: auto;
+    display: block;
+    color: white;
+}
+
+.nav-link:first-of-type {
+    margin-left: 10%;
+}
+
+.nav-link:last-of-type {
+    margin-right: 10%;
+}
+
+.nav-link:hover {
+    text-decoration: underline white;
+}
+
+.carte {
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    background: none;
+    text-align: center;
+    display: flex;
+    margin: auto;
+   justify-content: center;
+   flex-direction: column;  
+}
+.titre span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  animation: flip 4s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+
+
+#AboutMe{
+    color: #ccc;
+    padding: 75px 50px;
+    background-color: #14110F;
+}
+#AboutMeImage{
+    background-image: url(Image/barbe-removebg-preview.png);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+}
+#AboutMeText{
+    margin: auto;
+}
+
+
+
+
+
+
+#Curriculum{
+    background-color: #34312D;
+    color: #ccc;
+    padding: 75px 50px;
+    text-align: center;
+}
+
+
+#Curriculum button{
+  width: fit-content;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+}
+#Curriculum button:hover{
+  text-decoration: underline white;
+
+}
+
+
+
+
+.timeline-main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .timeline {
+    position: relative;
+    margin: 50px 0;
+  }
+  
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background-color: #7E7F83;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-item {
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 50px;
+  }
+  
+  .timeline-date {
+    position: absolute;
+    left: 45%;
+    top: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color:#414245;
+  }
+  
+  .timeline-content {
+    background-color:#7E7F83 ;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timeline-title {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .timeline-description {
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .timeline:before {
+      left: 25px;
+      transform: none;
+    }
+
+}
+
+
+
+
+#techno{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color:#8d7f72 ;
+  height: 300px;
+  padding: 50px;
+}
+#techno div{
+  justify-content: space-around;
+  display: flex;
+}
+
+
+
+
+#Portfolio{
+  text-align: center;
+  width: 100%;
+
+}
+
+#Portfolio div h1{
+  text-align: center;
+  width: 100%;
+}
+.carousel-inner{
+height:600px ;
+}
+
+footer{
+    background-color:#D9C5B2 ;
+    padding:75px 50px;
+    height: 300px;
 }
