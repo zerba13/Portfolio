@@ -197,16 +197,15 @@ nav {
 #Portfolio{
   text-align: center;
   width: 100%;
-
+  background-color: #8d7f72;
 }
 
 #Portfolio div h1{
   text-align: center;
   width: 100%;
+  margin-bottom: 50px;
 }
-.carousel-inner{
-height:600px ;
-}
+
 
 footer{
     background-color:#D9C5B2 ;
